@@ -1,8 +1,8 @@
-# DEVO-AI-OS
+# onemind
 
-Universal AI Creative Operating System.
+Universal AI Creative Workflow System.
 
-This is the common core distribution of DEVO-AI-OS. It is tool-agnostic and can be used with ChatGPT, Claude, Gemini, Manus, Grok, and other AI systems.
+This is the common core distribution of onemind. It is tool-agnostic and can be used with ChatGPT, Claude, Gemini, Manus, Grok, and other AI systems.
 
 ## Purpose
 
@@ -22,19 +22,19 @@ SKILLS
 
 ## Recommended Repository Name
 
-`DEVO-AI-OS`
+`onemind`
 
 ## Use This When
 
-- You want a general creative AI operating system.
+- You want a general creative AI workflow system.
 - You are building reusable workflows.
 - You want a common base for multiple projects.
 
 ## Child Distributions
 
-- `DEVO-AI-OS-HANMAUM`
-- `DEVO-AI-OS-MIND-SCENES`
+- `onemind-project`
+- `onemind-mind-scenes`
 
 ## Version
 
-v6.0 multi-distribution architecture.
+onemind v6.0 multi-distribution architecture.
