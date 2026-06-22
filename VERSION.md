@@ -1,19 +1,19 @@
 # VERSION
 
-Current Version: **v6.1**
+Current Version: **onemind v6.1**
 
 ## Release Name
 Independent Video Engine Architecture
 
 ## Main Change
-DEVO-AI-OS now treats major video tools as independent engines instead of simple VIDEO_ENGINE sub-tools.
+onemind now treats major video tools as independent engines instead of simple VIDEO_ENGINE sub-tools.
 
 ## Distribution Layers
 
 ```text
-1. DEVO-AI-OS                 Universal Core
-2. DEVO-AI-OS-HANMAUM         Hanmaum-specialized system
-3. DEVO-AI-OS-MIND-SCENES     Cinematic meditation / AI art system
+1. onemind                 Universal Core
+2. onemind-project         One Mind Project-specialized system
+3. onemind-mind-scenes     Cinematic meditation / AI art system
 ```
 
 ## Added in v6.0
@@ -52,4 +52,4 @@ VIDEO_ENGINE
 ```
 
 ## Status
-The current `SKILL` repository acts as the hub/staging repository for v6.1 distribution packages.
+The current `SKILL` repository acts as the hub/staging repository for onemind v6.1 distribution packages.
