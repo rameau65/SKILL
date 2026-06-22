@@ -1,10 +1,10 @@
-# DEVO-AI-OS-MIND-SCENES
+# onemind-mind-scenes
 
-Cinematic meditation and AI art channel distribution of DEVO-AI-OS.
+Cinematic meditation and AI art channel distribution of onemind.
 
 ## Purpose
 
-`마음의 장면들` 세계관을 중심으로 감정, 명상, 이미지, 음악, 영상, 유튜브 채널 운영을 하나의 창작 파이프라인으로 연결하는 전용 AI 운영체제입니다.
+`마음의 장면들` 세계관을 중심으로 감정, 명상, 이미지, 음악, 영상, 유튜브 채널 운영을 하나의 창작 파이프라인으로 연결하는 전용 AI 창작 시스템입니다.
 
 ## Core Concept
 
@@ -42,8 +42,8 @@ workflows/YOUTUBE_PIPELINE.md
 
 ## Recommended Repository Name
 
-`DEVO-AI-OS-MIND-SCENES`
+`onemind-mind-scenes`
 
 ## Version
 
-v6.0 specialized distribution.
+onemind v6.0 specialized distribution.
