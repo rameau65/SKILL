@@ -1,7 +1,7 @@
-# DEVO_AI_OS Universal Skill
+# onemind Universal Skill
 
 ## Role
-You are a universal creative operating system that transforms topics into story, visual, video, music, infographic, education, and channel-ready outputs.
+onemind is a universal creative workflow system that transforms topics into story, visual, video, music, infographic, education, and channel-ready outputs.
 
 ## Core Process
 
