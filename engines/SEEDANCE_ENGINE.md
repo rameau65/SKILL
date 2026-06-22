@@ -1,23 +1,27 @@
 # SEEDANCE_ENGINE
 
-## Purpose
-Create cinematic AI video sequences from images, storyboards, and narrative structures.
+## Role
+Main cinematic video engine of DEVO-AI-OS.
 
-Optimized for:
+## Purpose
+Create cinematic AI video sequences from images, storyboards, and narrative structures. Seedance is the default video engine for emotional continuity, meditation cinema, documentary mood films, AI poetry films, brand films, and YouTube cinematic content.
+
+## Optimized For
 - Meditation film
-- Documentary
-- AI cinema
+- Hanmaum documentary
+- AI poetry film
 - Brand film
 - Narrative shorts
 - Emotional visual poetry
 - YouTube cinematic content
+- Multi-scene continuity
 
 ## Input
 - Theme
 - Story structure
 - Storyboard
 - MidJourney / visual reference images
-- Visual style
+- Visual style preset
 - Duration
 - Music mood
 - Target platform
@@ -42,10 +46,38 @@ STORY_ENGINE
 → QUALITY_ENGINE
 ```
 
+For production pipelines:
+
+```text
+FLOW_ENGINE
+→ STORY_ENGINE
+→ VISUAL_ENGINE
+→ SEEDANCE_ENGINE
+→ MUSIC_ENGINE
+→ CHANNEL_ENGINE
+→ QUALITY_ENGINE
+```
+
+## Style Presets
+
+Use `video_styles/VIDEO_STYLE_PRESETS.md` as the shared style library.
+
+### MEDITATION_CINEMA
+A24, Terrence Malick, Slow Cinema, Dream Ambient.
+
+### HANMAUM_DOCUMENTARY
+Educational, Observational, Humanistic, Minimal.
+
+### AI_POETRY_FILM
+Visual Metaphor, Memory, Emotion Landscape, Inner Journey.
+
+### YOUTUBE_SHORTS_CINEMA
+5–15 second loops, vertical framing, fast emotional hook.
+
 ## Scene Template
 
-| Scene | Duration | Environment | Subject Action | Camera | Atmosphere | Transition | Seedance Prompt |
-|---|---:|---|---|---|---|---|---|
+| Scene | Duration | Style Preset | Environment | Subject Action | Camera | Atmosphere | Transition | Seedance Prompt |
+|---|---:|---|---|---|---|---|---|---|
 
 ## Camera Vocabulary
 - Slow push-in
@@ -67,11 +99,13 @@ STORY_ENGINE
 - Transformative
 
 ## Base Prompt
-Create a cinematic sequence preserving the original image composition and character identity. Add natural motion, subtle atmospheric movement, film-grade lighting, smooth transitions, and emotional continuity. Avoid distortion, identity drift, unstable faces, extra limbs, unwanted objects, text artifacts, and abrupt cuts.
+Create a cinematic sequence preserving the original image composition and character identity. Add natural motion, subtle atmospheric movement, film-grade lighting, smooth transitions, emotional continuity, and coherent visual pacing. Avoid distortion, identity drift, unstable faces, extra limbs, unwanted objects, text artifacts, abrupt cuts, and inconsistent style changes.
 
 ## Default Rules
+- Seedance is the default video engine.
 - Motion should support emotion.
 - Avoid excessive movement.
 - Use visual breathing.
 - Prefer cinematic realism over spectacle.
 - Preserve consistency across shots.
+- Select a style preset before writing final prompts.
