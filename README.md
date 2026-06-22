@@ -1,8 +1,8 @@
-# DEVO-AI-OS / SKILL
+# onemind / SKILL
 
-**Open Creative Operating System for Story, Visual, Video, Music, Education, Knowledge Design, and AI Skill Workflows.**
+**Creative AI workflow system for story, visual, video, music, education, knowledge design, and reusable skill workflows.**
 
-DEVO-AI-OS는 특정 AI 도구 하나를 위한 프롬프트 모음이 아닙니다. 하나의 주제나 아이디어를 **스토리, 이미지, 영상, 음악, 교육자료, 문서, 채널 운영 패키지**로 확장하기 위한 범용 AI 창작 운영체제입니다.
+onemind는 특정 AI 도구 하나를 위한 프롬프트 모음이 아닙니다. 하나의 주제나 아이디어를 **스토리, 이미지, 영상, 음악, 교육자료, 문서, 채널 운영 패키지**로 확장하기 위한 범용 AI 창작 시스템입니다.
 
 ## Core Philosophy
 
@@ -62,4 +62,4 @@ MIT License. See [LICENSE](LICENSE).
 
 ## Version
 
-Current master structure: **v4.0 distribution architecture**.
+Current master structure: **onemind v4.0 distribution architecture**.
