@@ -21,7 +21,7 @@
 Use this structure:
 
 ```text
-DEVO_AI_OS_SKILL/
+onemind_skill/
 ├─ skill.md
 ├─ core/
 ├─ engines/
@@ -33,9 +33,9 @@ DEVO_AI_OS_SKILL/
 Claude works best when each specialized distribution is separated into its own skill.
 
 Recommended Skills:
-- `DEVO_AI_OS_SKILL`
-- `HANMAUM_SKILL`
-- `MIND_SCENES_SKILL`
+- `onemind_skill`
+- `onemind_project_skill`
+- `onemind_mind_scenes_skill`
 
 ## Gemini
 
@@ -57,9 +57,9 @@ Recommended Skills:
 
 Grok does not currently use skill folders in the same way. Use one merged master markdown file per distribution:
 
-- `DEVO_AI_OS_MASTER.md`
-- `HANMAUM_MASTER.md`
-- `MIND_SCENES_MASTER.md`
+- `onemind_master.md`
+- `onemind_project_master.md`
+- `onemind_mind_scenes_master.md`
 
 ## Rule
 Keep the universal core light. Deploy only the needed specialized layer for each AI tool.
