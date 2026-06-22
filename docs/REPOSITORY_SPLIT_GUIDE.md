@@ -5,9 +5,9 @@
 Create the following repositories under `rameau65`:
 
 ```text
-DEVO-AI-OS
-DEVO-AI-OS-HANMAUM
-DEVO-AI-OS-MIND-SCENES
+onemind
+onemind-project
+onemind-mind-scenes
 ```
 
 ## Step 1 — Create Repositories
@@ -15,13 +15,13 @@ DEVO-AI-OS-MIND-SCENES
 In GitHub:
 
 1. Click New Repository.
-2. Create `DEVO-AI-OS`.
-3. Create `DEVO-AI-OS-HANMAUM`.
-4. Create `DEVO-AI-OS-MIND-SCENES`.
+2. Create `onemind`.
+3. Create `onemind-project`.
+4. Create `onemind-mind-scenes`.
 
 ## Step 2 — Copy Distribution Files
 
-### DEVO-AI-OS
+### onemind
 Copy:
 
 ```text
@@ -35,7 +35,7 @@ skills/
 docs/MULTI_AI_DEPLOYMENT.md
 ```
 
-### DEVO-AI-OS-HANMAUM
+### onemind-project
 Copy:
 
 ```text
@@ -52,7 +52,7 @@ workflows/DOCUMENTARY_PIPELINE.md
 templates/
 ```
 
-### DEVO-AI-OS-MIND-SCENES
+### onemind-mind-scenes
 Copy:
 
 ```text
@@ -75,11 +75,10 @@ templates/
 Use these tags:
 
 ```text
-v6.0-core
-v6.0-hanmaum
-v6.0-mind-scenes
+onemind-v6.0-core
+onemind-v6.0-project
+onemind-v6.0-mind-scenes
 ```
 
 ## Current Status
-
 Because this connector can update existing repositories but cannot create new repositories, the split packages are staged inside the current `SKILL` repository under `/distributions`.
