@@ -1,12 +1,18 @@
 # VERSION
 
-Current Version: **onemind v6.1**
+Current Version: **onemind v7.0**
 
 ## Release Name
-Independent Video Engine Architecture
+Agentic Creative Operating System
 
 ## Main Change
-onemind now treats major video tools as independent engines instead of simple VIDEO_ENGINE sub-tools.
+onemind has evolved from an engine-based AI creative system into an agentic creative operating system.
+
+The system now treats every serious creative request as:
+
+```text
+pipeline selection -> agent coordination -> engine execution -> quality gates -> checkpoint -> delivery
+```
 
 ## Distribution Layers
 
@@ -38,11 +44,32 @@ onemind now treats major video tools as independent engines instead of simple VI
 - `skills/flow/skill.md`
 - `engines/VIDEO_ENGINE.md` updated as a video engine router
 
+## Added in v7.0
+
+- `agent_os/AGENTIC_OPERATING_SYSTEM.md`
+- `agent_os/PIPELINE_ROUTER.md`
+- `agent_os/QUALITY_GATES.md`
+- `agent_os/CHECKPOINT_STATE.md`
+- `agent_os/DECISION_LOG.md`
+- `pipelines/REFERENCE_VIDEO_PIPELINE.md`
+- `pipelines/CINEMATIC_WELLNESS_PIPELINE.md`
+- `pipelines/HANMAUM_DOCUMENTARY_PIPELINE.md`
+- `pipelines/AI_POETRY_FILM_PIPELINE.md`
+- `pipelines/SHORTS_CINEMA_PIPELINE.md`
+- `agents/INTAKE_AGENT.md`
+- `agents/ROUTER_AGENT.md`
+- `agents/REFERENCE_ANALYST.md`
+- `agents/RESEARCH_AGENT.md`
+- `agents/PROPOSAL_AGENT.md`
+
+## Agentic Inspiration
+v7.0 adopts a readable, pipeline-first agentic production model: stage manifests, director skills, self-review gates, checkpoints, approval points, and auditable decision logs.
+
 ## Video Engine Architecture
 
 ```text
 VIDEO_ENGINE
-├─ SEEDANCE_ENGINE
+├─ SEEDANCE_ENGINE   main cinematic engine
 ├─ KLING_ENGINE
 ├─ HAILUO_ENGINE
 ├─ GROK_VIDEO_ENGINE
@@ -52,4 +79,4 @@ VIDEO_ENGINE
 ```
 
 ## Status
-The current `SKILL` repository acts as the hub/staging repository for onemind v6.1 distribution packages.
+The current `SKILL` repository acts as the hub/staging repository for onemind v7.0 agentic distribution packages.
